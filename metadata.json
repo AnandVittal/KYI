@@ -1,0 +1,10 @@
+{
+  "name": "Know your Insurance",
+  "description": "Powerful Indian health insurance analysis platform. Simplifies complex policy documents, identifies hidden exclusions, and offers localized multi-lingual support.",
+  "requestFramePermissions": [
+    "microphone"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

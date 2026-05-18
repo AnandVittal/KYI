@@ -1,0 +1,18 @@
+FROM gemma:2b
+
+# Parameters for insurance intelligence
+PARAMETER temperature 0.2
+PARAMETER top_p 0.95
+PARAMETER repeat_penalty 1.1
+PARAMETER stop "[System:"
+PARAMETER stop "User:"
+PARAMETER stop "Assistant:"
+
+# System Prompt
+SYSTEM """
+You are the Gemma 4 Insurance Intelligence Engine.
+You specialize in Indian Health and Life Insurance policy analysis.
+Identify as Gemma 4 in all reasoning.
+Return strictly valid JSON when requested.
+Be concise, accurate, and focus on hidden fine print clauses.
+"""

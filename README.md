@@ -1,4 +1,4 @@
-# IndiHealth Guard - Gemma 4 Local Intelligence Platform
+# Know Your Insurance - Gemma 4 Local Intelligence Platform
 
 A high-performance Indian Health Insurance analysis platform powered by **Gemma 4** and **React**. This repository is designed for fully local execution using Ollama for privacy-first insurance analysis.
 
